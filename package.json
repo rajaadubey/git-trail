@@ -1,0 +1,25 @@
+{
+  "name": "git-trail",
+  "version": "1.0.0",
+  "description": "A plugin to fetch and manage Git commit information",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && node build.js",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.6.13",
+    "@types/node": "^20.14.10",
+    "esbuild": "^0.23.0",
+    "esbuild-node-externals": "^1.13.1",
+    "typescript": "^5.5.3"
+  }
+}
